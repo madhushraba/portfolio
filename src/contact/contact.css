@@ -1,12 +1,13 @@
 .contact {
   margin: 2rem 20rem;
+  /* margin: 0; */
 }
 .cont {
   display: flex;
   /* justify-content: center; */
   align-items: center;
   /* height: 12rem; */
-  background-color: #fff;
+  /* background-color: #6f5858; */
 }
 .contl {
   flex: 1;

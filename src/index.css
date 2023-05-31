@@ -7,13 +7,13 @@
   --priclr: red;
   --pink: #c9163d;
   --txtclr: rgb(24, 0, 27);
-  --bgclr: rgb(250, 242, 242);
+  --bgclr: rgb(255, 237, 237);
 }
 .dark-mode {
   --priclr: blue;
   --pink: #c9163d;
   --txtclr: whitesmoke;
-  --bgclr: rgb(20, 1, 17);
+  --bgclr: rgb(2, 3, 20);
 }
 body {
   margin: 0;

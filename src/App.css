@@ -1,0 +1,11 @@
+.img1 {
+  padding-top: 0;
+  margin-top: 0;
+  background: linear-gradient(rgb(14, 10, 10), rgba(22, 22, 68, 0.582)),
+    url("https://images.pexels.com/photos/10874572/pexels-photo-10874572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* width: 100px; */
+    height: 400px;
+    /* border: 1px solid; */
+    background-size: contain;
+  background-attachment: fixed;
+}

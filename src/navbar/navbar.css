@@ -18,6 +18,12 @@
     color: var(--pink);
     margin-left: 5rem;
 }
+.navleft:hover{
+    color: #e82261;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
 .navright{
     flex: 1;
     cursor: pointer;
@@ -29,6 +35,11 @@
     /* text-decoration: none; */
     list-style: none;
     display: flex;
+}
+li:hover{
+    font-size: 1.17rem;
+    color: var(--txtclr);
+    transition: .24s ease-in-out;
 }
 li{
     margin-right: 1rem;

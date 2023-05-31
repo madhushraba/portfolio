@@ -1,18 +1,40 @@
-.about{
-    height: 80vh;
+.about {
+  height: 80vh;
+  background-color: #52a788;
 }
 .aboutdiv {
-  margin: 8rem 20rem;
+  padding: 8rem 20rem;
   display: flex;
-  padding: 3rem;
+  /* padding: 3rem; */
   height: 50vh;
-  background-color: #a79494;
+  background-color: var(--bgclr);
 }
 .aboutl {
   flex: 5;
 
+  overflow: hidden;
+  /* background-size: fill; */
+  /* width: 100px; */
+  /* background-color: #055d50; */
+  border-radius: 1rem;
 }
-.aboutr{
-    background-color: #fff;
-    flex: 7;
+.abimg{
+  /* width: 100em;
+   */
+   border-radius: 1rem;
+}
+.aboutr {
+  background-color: var(--bgclr);
+  color: var(--txtclr);
+  flex: 7;
+  padding: 2rem;
+}
+h2 {
+  margin: 6px 0;
+  padding: 0;
+  font-size: 1.3rem;
+}
+p{
+  padding: 0;margin: 0;
+  /* color: ; */
 }

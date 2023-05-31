@@ -8,8 +8,8 @@ const Home = () => {
     <div className="home">
       <div className="hometop">
         <div className="homeleft">
-          <h1>FRONTEND REACTJS DEVELOPER</h1>
-          <p>
+          <h1 className="h1">FRONTEND REACTJS DEVELOPER</h1>
+          <p className="p">
             Hi i am <span> Madhushraba Das</span> i am a passionate frontend
             developer based on Kolkata.
           </p>
