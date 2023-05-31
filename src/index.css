@@ -18,6 +18,9 @@
 body {
   margin: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 ::-webkit-scrollbar {
   background-color: var(--txtclr);

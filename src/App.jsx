@@ -10,19 +10,25 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
+    <main id="home">
       <Navbar />
-      <Home />
-      {/* <div className="img1"> </div> */}
-      <About />
-      {/* <div className="img1"></div> */}
-      <Projects />
+      <section className="home">
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+
       <div className="img1">
-        {" "}
-        <Contact />
+      <section id="contact">
+      <Contact/>
+      </section>
       </div>
       <Footer />
-    </>
+    </main>
   );
 }
 

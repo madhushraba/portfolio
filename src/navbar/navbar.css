@@ -27,14 +27,23 @@
 .navright{
     flex: 1;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
-.navlist{
+/* .navlist{
     align-items: center;
     font-weight: 660;
     color: var(--pink);
-    /* text-decoration: none; */
+    text-decoration: none;
     list-style: none;
     display: flex;
+} */
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .41rem;
+    color: var(--pink);
 }
 li:hover{
     font-size: 1.17rem;

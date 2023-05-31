@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import "./navbar.css";
+import { links } from "./link";
 import LightModeIcon from "@mui/icons-material/LightMode";
 const Navbar = () => {
   const [darkicon, setdarkicon] = useState(<DarkModeIcon />);
@@ -27,17 +28,27 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navleft">Madhushraba.dev</div>
         <div className="navright">
-          <ul className="navlist">
+          {/* <ul className="navlist">
             <li>Home</li>
             <li>About</li>
             <li>Projects</li>
             <li>Contact</li>
-            {/* <DarkModeIcon/> */}
+            <DarkModeIcon/>
             <button className="toggle" onClick={toggler}>
               {darkicon}
             </button>
-            {/* <LightModeIcon/> */}
-          </ul>
+            <LightModeIcon/>
+          </ul> */}
+          <div className="navlist">
+          {links.map((link)=>{
+            return <a href={link.url} key={link.id}>
+              {link.text}
+            </a>
+          })}
+          </div>
+          <button className="toggle" onClick={toggler}>
+              {darkicon}
+            </button>
         </div>
       </div>
     </div>

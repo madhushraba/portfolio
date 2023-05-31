@@ -16,6 +16,7 @@
 .contr {
   /* font: 6px; */
   flex: 4;
-  height: 6rem;
+  height: 16rem;
+  margin:  3rem;
   background-color: #c49b9b;
 }

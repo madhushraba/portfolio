@@ -1,10 +1,10 @@
 .projects{
     height: fit-content;
-    /* margin: 12rem 20rem ; */
+    margin: 2rem 0 ;
     background-color: #edc2f1;
 }
 .cards{
-    margin:02rem 20rem;
+    margin:3rem 20rem;
     padding: 1rem;
     background-color: #accec7;
     height: 20vh;
