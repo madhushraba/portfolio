@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    background-color: #c9163d;
+    position: sticky;
+    width: 100vw;
+    align-items: center;
+    color: whitesmoke;
+    /* box-shadow: 0 2px 5px #fff; */
+    box-shadow: 0 2px 5px #dc0534;
+    justify-content: space-between;
+}
+.navlist{
+    /* text-decoration: none; */
+    list-style: none;
+    display: flex;
+    margin-right: 1rem;
+}
+li{
+    margin-right: 1rem;
+}

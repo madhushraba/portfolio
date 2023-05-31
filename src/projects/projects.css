@@ -1,0 +1,12 @@
+.projects{
+    height: fit-content;
+    /* margin: 12rem 20rem ; */
+    background-color: #edc2f1;
+}
+.cards{
+    margin: 1rem 20rem;
+    padding: 1rem;
+    background-color: #accec7;
+    height: 20vh;
+    /* background-color: #5b5454; */
+}

@@ -1,0 +1,20 @@
+.contact {
+  margin: 2rem 20rem;
+}
+.cont {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 12rem; */
+  background-color: #fff;
+}
+.contl {
+  flex: 1;
+  height: 6rem;
+}
+.contr {
+  /* font: 6px; */
+  flex: 4;
+  height: 6rem;
+  background-color: #c49b9b;
+}

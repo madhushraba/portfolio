@@ -1,0 +1,38 @@
+.home{
+    height: 60vh;
+    /* padding: 7rem; */
+    background-color: #c7e0d3;
+}
+.hometop {
+  background-color: #efafaf;
+  margin: 0 12rem 4rem 12rem;
+  display: flex;
+  height: 40vh;
+  justify-content: space-between;
+}
+.homeright {
+  background-color: #cf2ca1;
+  flex: 3;
+}
+.homeleft {
+  flex: 4;
+}
+.techstack {
+  background-color: #fff;
+  display: flex;
+  padding: 1rem;
+  margin:  1rem 12rem ;
+}
+.techl{
+    /* background-color: #27b500; */
+    flex: 1;
+}
+.techr{
+    /* background-color: #4a67cc; */
+    flex: 3;
+}
+hr{
+    background:  #d4043f;
+    width: .31rem;
+    height: 1rem;
+}
