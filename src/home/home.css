@@ -1,7 +1,8 @@
 .home{
     height: 60vh;
-    /* padding: 7rem; */
-    background-color: #c7e0d3;
+    /* margin-top: 20rem; */
+    padding:10rem 7rem;
+    background-color: var(--bgclr);
 }
 .hometop {
   background-color: #efafaf;
