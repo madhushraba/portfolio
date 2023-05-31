@@ -1,17 +1,19 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
 }
-.light-mode{
---priclr: red;
---pink: #c9163d;
---txtclr:black;
---bgclr:whitesmoke;
+.light-mode {
+  --priclr: red;
+  --pink: #c9163d;
+  --txtclr: rgb(24, 0, 27);
+  --bgclr: rgb(250, 242, 242);
 }
-.dark-mode{
---priclr:blue;
---pink: #c9163d;
---txtclr:whitesmoke;
---bgclr:rgb(2, 17, 5);
+.dark-mode {
+  --priclr: blue;
+  --pink: #c9163d;
+  --txtclr: whitesmoke;
+  --bgclr: rgb(20, 1, 17);
 }
 body {
   margin: 0;
@@ -28,4 +30,12 @@ body {
   background: linear-gradient(rgb(196, 5, 53), rgb(182, 5, 182));
 
   border-radius: 1rem;
+}
+svg {
+  padding: 1rem;
+  cursor: pointer;
+  color: var(--pink);
+}
+span {
+  color: var(--pink);
 }
