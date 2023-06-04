@@ -1,13 +1,15 @@
 .about {
   height: 80vh;
-  background-color: #52a788;
+  /* padding: 5rem; */
+  background-color: var(--bgclr);
+
+  /* background-color: #52a788; */
 }
 .aboutdiv {
-  padding: 8rem 20rem;
+  padding: 4rem 20rem;
   display: flex;
   /* padding: 3rem; */
   height: 50vh;
-  background-color: var(--bgclr);
 }
 .aboutl {
   flex: 5;

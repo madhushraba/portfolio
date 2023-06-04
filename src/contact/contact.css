@@ -1,22 +1,40 @@
 .contact {
-  margin: 2rem 20rem;
+  margin: 0 20rem;
   /* margin: 0; */
+  background-color: #f4cece2a;
+  padding:  6rem;
+  display: flex;
+  flex-direction: column;
+/* justify-content: center; */
+  /* align-items: center; */
+  color: var(--txtclr);
 }
 .cont {
   display: flex;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
   /* height: 12rem; */
-  /* background-color: #6f5858; */
+  text-align: center;
+  /* background-color: #a48181be; */
 }
 .contl {
   flex: 1;
   height: 6rem;
+  display: flex;
+  align-items: center;
+  /* background-color: #e17979; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 .contr {
   /* font: 6px; */
   flex: 4;
-  height: 16rem;
-  margin:  3rem;
-  background-color: #c49b9b;
+  /* height: 16rem; */
+  /* margin:  3rem; */
+  margin-left: 2rem;
+  padding-left: 4rem;
+  display: flex;
+  align-items: center;
+  /* padding:  auto; */
+  /* background-color: #c49b9b; */
 }

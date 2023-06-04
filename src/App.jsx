@@ -19,7 +19,7 @@ function App() {
         <About />
       </section>
       <section id="projects">
-        <Projects />
+        {/* < Projects /> */}
       </section>
 
       <div className="img1">
