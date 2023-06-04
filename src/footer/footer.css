@@ -1,5 +1,8 @@
 .footer{
-    height: 44vh;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 0 20rem;
     /* background-color: var(--pink); */
     background-color: var(--bgclr);

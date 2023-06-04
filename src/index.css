@@ -18,7 +18,7 @@
 body {
   margin: 0;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -38,6 +38,11 @@ svg {
   padding: 1rem;
   cursor: pointer;
   color: var(--pink);
+}
+svg:hover {
+  font-size: 1.8rem;
+  color: var(--txtclr);
+  transition: 0.3s ease-in-out;
 }
 span {
   color: var(--pink);
