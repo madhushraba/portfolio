@@ -36,7 +36,7 @@ const Home = () => {
           <div className="techskill">React</div>
           <div className="techskill">Redux</div>
           <div className="techskill">Taillwind</div>
-          <div className="techskill">Router</div>
+          <div className="techskill">Next</div>
         </div>
       </div>
     </div>
