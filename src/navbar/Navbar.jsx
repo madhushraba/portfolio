@@ -28,17 +28,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navleft">Madhushraba.dev</div>
         <div className="navright">
-          {/* <ul className="navlist">
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
-            <DarkModeIcon/>
-            <button className="toggle" onClick={toggler}>
-              {darkicon}
-            </button>
-            <LightModeIcon/>
-          </ul> */}
+         
           <div className="navlist">
           {links.map((link)=>{
             return <a href={link.url} key={link.id}>

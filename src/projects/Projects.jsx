@@ -4,7 +4,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div className="projects">
-      <div className="cont">
+      {/* <div className="cont">
         <h1>PORTFOLIO</h1>
         <div>Under construction</div>
         <div className="box">
@@ -13,7 +13,7 @@ const Projects = () => {
           <div className="cards"> card3</div>
           <div className="cards"> card4</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
