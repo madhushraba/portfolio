@@ -1,12 +1,14 @@
 .projects{
-    height: fit-content;
-    margin: 2rem 0 ;
+    /* height: fit-content; */
+    /* margin: 2rem 0 ; */
+    display: flex;
+    justify-content: center;
     background-color: #edc2f1;
 }
 .cards{
     margin:3rem 20rem;
-    padding: 1rem;
+    /* padding: 1rem;
     background-color: #accec7;
-    height: 20vh;
+    height: 20vh; */
     /* background-color: #5b5454; */
 }

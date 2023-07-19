@@ -21,7 +21,7 @@ const Home = () => {
         <div className="homeright">
           <img
             className="img"
-            src="https://images.pexels.com/photos/15795162/pexels-photo-15795162/free-photo-of-woman-sitting-at-the-table-full-of-candles.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            src="https://scontent.fccu5-1.fna.fbcdn.net/v/t39.30808-6/301606477_1391625491363107_1353372446152285278_n.jpg?stp=c0.36.206.206a_dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=da31f3&_nc_ohc=U-fza50n8FAAX8teCkE&_nc_ht=scontent.fccu5-1.fna&oh=00_AfBQchLOPBG0dYN-WEKKDExjq59qHhWhcoNOAsfCbS79eg&oe=64BC7509"
             alt=""
           />
         </div>

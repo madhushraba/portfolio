@@ -10,6 +10,7 @@
   display: flex;
   /* padding: 3rem; */
   height: 50vh;
+  align-items: center;
 }
 .aboutl {
   flex: 5;
