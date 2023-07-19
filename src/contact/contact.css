@@ -7,7 +7,7 @@
   flex-direction: column;
 /* justify-content: center; */
   /* align-items: center; */
-  color: var(--txtclr);
+  color: var(--bgclr);
 }
 .cont {
   display: flex;
