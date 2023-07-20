@@ -60,6 +60,9 @@
 
 }
 .conbtn{
-  background-color: #c10742;
-  color: #ffffff;
+  /* background-color:  */
+  border: 2px solid #c10742;;
+  color: #c10742;;
+  display: flex;
+  align-items: center;
 }

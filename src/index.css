@@ -35,7 +35,7 @@ html {
   border-radius: 1rem;
 }
 svg {
-  padding: 1rem;
+  padding: 0 .6rem;
   cursor: pointer;
   color: var(--pink);
 }
