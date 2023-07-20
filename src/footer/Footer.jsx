@@ -9,8 +9,12 @@ const Footer = () => {
     <div className="footer">
       <div className="fooleft">Copyright © 2023. All rights are reserved</div>
       <div className="fooright">
-        <GitHubIcon />
-        <LinkedInIcon />
+        <a href="https://github.com/madhushraba">
+          <GitHubIcon />
+        </a>
+        <a href="https://www.linkedin.com/in/madhushraba-das-703664190/">
+          <LinkedInIcon />
+        </a>
       </div>
     </div>
   );

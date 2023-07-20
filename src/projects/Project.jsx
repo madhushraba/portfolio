@@ -25,7 +25,7 @@ function Project() {
       {/* <Link to="/allprojects"> */}
 
       <button className="btnpro" onClick={red}>
-        More projects...{" "}
+        More projects...
       </button>
       {/* </Link> */}
     </div>

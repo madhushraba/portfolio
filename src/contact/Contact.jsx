@@ -1,7 +1,7 @@
 import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import "./contact.css";
-import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';
+import MarkEmailReadIcon from "@mui/icons-material/MarkEmailRead";
 const Contact = () => {
   return (
     <div className="contact">
@@ -15,8 +15,16 @@ const Contact = () => {
           kolkata, india
         </div>
         <div className="contr">
-          <MarkEmailReadIcon/>
-          @madhushraba21das@gmail.com
+          <div className="i">
+            <MarkEmailReadIcon />
+          </div>
+          <div className="sub">
+            <div className="subup">
+              <input className="inp" type="text" />
+              <button className="conbtn">Send</button>
+            </div>
+            <div className="subbtm">@madhushraba21das@gmail.com</div>
+          </div>
         </div>
       </div>
     </div>
